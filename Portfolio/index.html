@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>REALES BRAZI JR.</h1>
+    <nav>
+      <a href="#about-me">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <section class="section about-me" id="about-me">
+      <h2>About Me</h2>
+      <img alt="Portrait of the developer" src="img_1.jpg"/>
+      <p>Hello! I'm a Reales Brazi Jr. A web developer who loves to sleep. I have experience in HTML, CSS, JavaScript. I'm always eager to learn new technologies and improve my skills.</p>
+    </section>
+    <section class="section skills" id="skills">
+      <h2>Skills</h2>
+      <ul></ul>
+    </section>
+    <section class="section projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <img alt="Screenshot of Project 1" src="proj_2.jpg"/>
+        <div>
+          <h3>Project 1</h3>
+          <p>This is the very first project i had when i was in first year. A snickers shop where you can browse and buy shoes.</p>
+        </div>
+      </div>
+      <div class="project">
+        <img alt="Screenshot of Project 2" src="proj_1.png"/>
+        <div>
+          <h3>&nbsp&nbsp&nbsp&nbsp&nbspProject 2</h3>
+          <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThis is the second project i had work on in my second year. A medical clinic where it records the patient medical information</p>
+        </div>
+      </div>
+    </section>
+    <section class="section contact" id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input id="name" placeholder="Your Name" required="" type="text"/>
+        <input id="email" placeholder="Your Email" required="" type="email"/>
+        <textarea id="message" placeholder="Your Message" required=""></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
